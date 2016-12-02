@@ -1,0 +1,55 @@
+도서 관리 프로그램
+
+	Book
+		책정보 저장용 클래스 (필드, 생성자, getter/setter)
+		(번호, 제목, 저자, 출판사, 가격, 장르)
+	Library
+		책 등록 (동일한 번호의 책이 존재하면 예외 발생)
+		책번호로 찾기(번호에 해당하는 책이 없으면 예외 발생)
+		제목으로 찾기(제목에 해당하는 책이 없으면 예외 발생)
+		저자로 찾기(저자에 해당하는 책이 없으면 예외 발생)
+		장르로 찾기(장르에 해당하는 책이 없으면 예외 발생)
+/*
+Book.java
+	public class Book {
+	
+	}
+*/
+/*
+LibraryException.java
+	public class LibraryException extends Exception {
+	
+	}
+*/
+/*
+Library.java
+	public class Library {
+		private Book[] db = new Book[100];
+		private int position = 0;
+
+		public void addBook(Book book) throws LibraryException {
+		
+		}
+
+		public void findBooksByNo(int no) throws LibraryException {
+		
+		}
+
+		public void findBooksByTitle(String title) throws LibraryException {
+		
+		}
+
+		public void findBooksByGenre(String genre) throws LibraryException {
+		
+		}
+	}
+*/
+/*
+LibraryApp.java
+	public class LibraryApp {
+		public static void main(String[] args) {
+		
+		
+		}
+	}
+*/
